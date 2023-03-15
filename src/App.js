@@ -97,6 +97,7 @@ class App extends Component {
               this.setState(Object.assign(this.state.user, { entries: count }));
             })
             .catch(console.log);
+          git;
         }
         this.displayFaceBox(this.calculateFaceLocation(response));
       })
