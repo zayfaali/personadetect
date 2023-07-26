@@ -86,7 +86,7 @@ class App extends Component {
         console.log("hi", response);
         if (response) {
           fetch(
-            "https://personadetect-backend-production.up.railway.app/image",
+            "https://smart-brain-backend-1i0v.onrender.com/image",
             {
               method: "put",
               headers: { "Content-Type": "application/json" },
